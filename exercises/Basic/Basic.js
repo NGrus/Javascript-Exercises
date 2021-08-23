@@ -97,7 +97,7 @@ function ExH2(){
     "seven"
   ]
   exh.push("eight")
-   document.getElementById("ExH2").innerHTML=(exh.length);
+   document.getElementById("ExH2").innerHTML=(exh);
 }
 function ExH3(){
   exh = [
@@ -111,7 +111,7 @@ function ExH3(){
   ]
   x = exh.length
   exh.pop();
-   document.getElementById("ExH3").innerHTML=(exh.length);
+   document.getElementById("ExH3").innerHTML=(exh);
 }
 function ExH4(){
   exh = [
@@ -125,9 +125,57 @@ function ExH4(){
   ]
   x = exh.length
    exh.shift();
-   document.getElementById("ExH4").innerHTML=(exh.length);
+   document.getElementById("ExH4").innerHTML=(exh);
 }
+function ExH5(){
+  exh = [
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven"
+  ]
+  x = exh.length
+   exh.unshift("zero");
+   document.getElementById("ExH5").innerHTML=(exh);
+}
+function ExH6(){
+  exh = [
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven"
+  ]
+  x = exh.length
+   exh.sort();
+   document.getElementById("ExH6").innerHTML=(exh);
+}
+function ExH7(){
+  exh = [
+    "one",
+    "two",
+    "three",
+    "four",
+    "five",
+    "six",
+    "seven"
+  ]
+  x = exh.length
+   exh.forEach(index =>
+    document.getElementById("ExH7").innerHTML="number "+(exh)
+    );
+}
+0
+
 function ExI(){
-  var date = today.getFullYear();
-  document.getElementById="ExI".innerHTML=date;
+  date = new Date();
+  document.getElementById("ExI").innerHTML = date;
+}
+function ExJ(arg1, arg2){
+  document.getElementById("ExJ").innerHTML = (arg1 + arg2);
 }
