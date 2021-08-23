@@ -1,0 +1,12 @@
+Themen zu Javascript “Basic”
+
+A: Zeichenketten verbinden; Single Quotes - Double Quotes
+B: Zeichenketten und Werte von Variablen anzeigen per  “innerHML”
+C: Rechnen: Addition, Subtraktion, Division, Modulo
+D: if - else if - else
+E: while loop
+F: do-while loop
+G: for loop
+H: Array length push() pop() shift() unshift() sort() forEach()
+I: Datum, Uhrzeit anzeigen
+J: Funktionen mit keinem, einem oder mehreren Argumenten
