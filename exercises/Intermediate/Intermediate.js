@@ -7,7 +7,7 @@ function ExK(arg){
     case 3:
       document.getElementById("ExK").innerHTML="you've entered 3 as an argument"
     default:
-      document.getElementById("ExK").innerHTML="You've entered no argument, the code worked."
+      document.getElementById("ExK").innerHTML="You've entered no argument, the code worked. I think."
   }
 }
 function ExL(){
