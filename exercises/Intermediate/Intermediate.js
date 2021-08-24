@@ -46,9 +46,10 @@ function ExR(){
   document.getElementById("ExR").style.color = "red";
 }
 function ExS(){
-  let a = 50;
-  let b = 60;
-  document.getElementById("ExS").innerHTML="the result of a(50) added to b(60) is "+(a+b)+", but i think i did this wrong.";
+  let a = `Johnny is an `;
+  let b = `"unsettling" 
+  person.`;
+  document.getElementById("ExS").innerHTML=a + b;
 }
 function ExT(){
   window.localStorage.setItem('name', 'nico')
