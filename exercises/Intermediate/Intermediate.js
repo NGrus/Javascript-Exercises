@@ -56,5 +56,7 @@ function ExT(){
   document.getElementById("ExT").innerHTML=window.localStorage.getItem('name')
 }
 function ExU(){
-  setTimeout(function(){document.getElementById("ExU").innerHTML="Hello"; }, 3000);
+  setTimeout(function(){
+    document.getElementById("ExU").innerHTML="Hello"; 
+  }, 3000);
 }
