@@ -50,3 +50,10 @@ function ExS(){
   let b = 60;
   document.getElementById("ExS").innerHTML="the result of a(50) added to b(60) is "+(a+b)+", but i think i did this wrong.";
 }
+function ExT(){
+  window.localStorage.setItem('name', 'nico')
+  document.getElementById("ExT").innerHTML=window.localStorage.getItem('name')
+}
+function ExU(){
+  setTimeout(function(){document.getElementById("ExU").innerHTML="Hello"; }, 3000);
+}
