@@ -1,6 +1,7 @@
 *{
   margin:0;
   padding:0;
+  font-family:ubuntu;
 }
 
 body{
@@ -14,11 +15,16 @@ a, a:visited{
 }
 
 ul{
-  margin-top:200px;
+  margin-top:100px;
+  margin-bottom:100px;
 }
 
 li{
   text-shadow:0px 0px 10px black;
   list-style: none;
   margin:10px;
+}
+
+.titles{
+  font-size:20px;
 }
