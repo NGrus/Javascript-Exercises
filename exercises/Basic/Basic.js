@@ -1,6 +1,6 @@
 function ExA(){
   x="hello"
-  y=', you "freak"'
+  y=', Friendo'
   document.getElementById("ExA").innerHTML=x + y
 }
 

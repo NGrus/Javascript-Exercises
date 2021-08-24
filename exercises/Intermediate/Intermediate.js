@@ -1,5 +1,14 @@
-function ExK(){
-  document.getElementById("ExK").innerHTML="i've failed this exercise";
+function ExK(arg){
+  switch(document.getElementById("ExK")){
+    case 1:
+      document.getElementById("ExK").innerHTML="you've entered 1 as an argument"
+    case 2:
+      document.getElementById("ExK").innerHTML="you've entered 2 as an argument"
+    case 3:
+      document.getElementById("ExK").innerHTML="you've entered 3 as an argument"
+    default:
+      document.getElementById("ExK").innerHTML="You've entered no argument, the code worked."
+  }
 }
 function ExL(){
   let x = 50;
