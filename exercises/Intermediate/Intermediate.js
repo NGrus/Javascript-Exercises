@@ -60,3 +60,9 @@ function ExU(){
     document.getElementById("ExU").innerHTML="Hello"; 
   }, 3000);
 }
+function ExN(){
+  document.getElementById("ExN2").addEventListener("click", function(){
+    document.getElementById("ExN2").innerHTML="This was an externally applied onclick event."
+  })
+}
+ExN()
